@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jaguar — Proyecto Colaborativo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header container">
+    <h1>Jaguar (Panthera onca)</h1>
+    <button id="themeToggle" class="btn" aria-pressed="false">Cambiar tema 🌗</button>
+  </header>
+
+  <main class="container">
+    <section id="hero" class="card">
+      <img src="img/jaguar.jpg" alt="Jaguar en su hábitat natural" />
+    </section>
+
+    <section id="descripcion" class="card">
+      <h2>Descripción</h2>
+      <p>
+        El jaguar es un gran felino nativo de América, conocido por su fuerza y
+        su habilidad para nadar. Su patrón de rosetas lo distingue de otros felinos.
+      </p>
+      <button class="btn" data-toggle="#masInfo" aria-expanded="false" aria-controls="masInfo">
+        Ver más
+      </button>
+      <div id="masInfo" hidden>
+        <p>
+          Además de habitar selvas tropicales, puede adaptarse a sabanas y pantanos.
+          Es un depredador tope clave para el equilibrio del ecosistema.
+        </p>
+      </div>
+    </section>
+
+    <section id="caracteristicas" class="card">
+      <h2>Características principales</h2>
+      <ul>
+        <li><strong>Hábitat:</strong> Selvas tropicales y pantanos de América.</li>
+        <li><strong>Alimentación:</strong> Carnívoro.</li>
+        <li><strong>Comportamiento:</strong> Generalmente solitario; excelente nadador.</li>
+        <li><strong>Conservación:</strong> Estado vulnerable en varias regiones.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <small>Proyecto web colaborativo — Git & GitHub Pages</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
